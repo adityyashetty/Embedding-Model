@@ -1,6 +1,6 @@
 # Embedding-Model-
 Embedding-Based Retrieval-Augmented Generation (RAG) System for Website Content
-Description: This project develops a Retrieval-Augmented Generation (RAG) system that utilizes embeddings to enhance the relevance of content retrieval from website data. Using the avsolatorio/GIST-small-Embedding-v0 model, the system parses and embeds textual content from websites, which is stored in a CSV file. When a user inputs a query, the system computes an embedding for the question and compares it with the pre-computed website content embeddings. The comparison is performed using cosine similarity, allowing the system to identify and retrieve the most relevant content from the website.
+Description: This project develops a Retrieval-Augmented Generation (RAG) system that utilizes embeddings to enhance the relevance of content retrieval from website data. Using the 'avsolatorio/GIST-small-Embedding-v0 model', the system parses and embeds textual content from websites, which is stored in a CSV file. When a user inputs a query, the system computes an embedding for the question and compares it with the pre-computed website content embeddings. The comparison is performed using cosine similarity, allowing the system to identify and retrieve the most relevant content from the website.
 
 The core functionality of the system includes:
 
